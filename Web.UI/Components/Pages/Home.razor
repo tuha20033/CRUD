@@ -22,6 +22,10 @@
     protected override async Task OnInitializedAsync()
     {
         inventories = (await ViewInventortiesByNameUseCase.ExecuteAsync()).ToList();
+        // inventories = (await ViewInventortiesByNameUseCase.ExecuteAsync("W")).ToList();
+        // Nếu thêm 1 chuỗi ký tự vào trong hàm
+        // ExecuteAsync thì nó sẽ tìm những item
+        // có những chữ cái đó sau đó đưa ra cho UI
     }
 
 }
