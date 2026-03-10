@@ -1,0 +1,17 @@
+C:\Users\tuhn\source\repos\demo crud\Plugins\Plugins.InMemory\bin\Debug\net8.0\Plugins.InMemory.deps.json
+C:\Users\tuhn\source\repos\demo crud\Plugins\Plugins.InMemory\bin\Debug\net8.0\Plugins.InMemory.dll
+C:\Users\tuhn\source\repos\demo crud\Plugins\Plugins.InMemory\bin\Debug\net8.0\Plugins.InMemory.pdb
+C:\Users\tuhn\source\repos\demo crud\Plugins\Plugins.InMemory\bin\Debug\net8.0\CoreBusiness.dll
+C:\Users\tuhn\source\repos\demo crud\Plugins\Plugins.InMemory\bin\Debug\net8.0\UseCase.dll
+C:\Users\tuhn\source\repos\demo crud\Plugins\Plugins.InMemory\bin\Debug\net8.0\CoreBusiness.pdb
+C:\Users\tuhn\source\repos\demo crud\Plugins\Plugins.InMemory\bin\Debug\net8.0\UseCase.pdb
+C:\Users\tuhn\source\repos\demo crud\Plugins\Plugins.InMemory\obj\Debug\net8.0\Plugins.InMemory.csproj.AssemblyReference.cache
+C:\Users\tuhn\source\repos\demo crud\Plugins\Plugins.InMemory\obj\Debug\net8.0\Plugins.InMemory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tuhn\source\repos\demo crud\Plugins\Plugins.InMemory\obj\Debug\net8.0\Plugins.InMemory.AssemblyInfoInputs.cache
+C:\Users\tuhn\source\repos\demo crud\Plugins\Plugins.InMemory\obj\Debug\net8.0\Plugins.InMemory.AssemblyInfo.cs
+C:\Users\tuhn\source\repos\demo crud\Plugins\Plugins.InMemory\obj\Debug\net8.0\Plugins.InMemory.csproj.CoreCompileInputs.cache
+C:\Users\tuhn\source\repos\demo crud\Plugins\Plugins.InMemory\obj\Debug\net8.0\Plugins..21ED4BEB.Up2Date
+C:\Users\tuhn\source\repos\demo crud\Plugins\Plugins.InMemory\obj\Debug\net8.0\Plugins.InMemory.dll
+C:\Users\tuhn\source\repos\demo crud\Plugins\Plugins.InMemory\obj\Debug\net8.0\refint\Plugins.InMemory.dll
+C:\Users\tuhn\source\repos\demo crud\Plugins\Plugins.InMemory\obj\Debug\net8.0\Plugins.InMemory.pdb
+C:\Users\tuhn\source\repos\demo crud\Plugins\Plugins.InMemory\obj\Debug\net8.0\ref\Plugins.InMemory.dll
