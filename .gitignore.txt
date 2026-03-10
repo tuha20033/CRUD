@@ -1,6 +1,0 @@
-# Bỏ qua các file rác của Visual Studio
-.vs/
-bin/
-obj/
-*.user
-*.suo
