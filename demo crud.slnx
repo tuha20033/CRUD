@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/Plugins/">
+    <Project Path="Plugins/Plugins.InMemory/Plugins.InMemory.csproj" />
+  </Folder>
+  <Project Path="CoreBusiness/CoreBusiness.csproj" />
+  <Project Path="UseCase/UseCase.csproj" />
+  <Project Path="Web.UI/Web.UI.csproj" />
+</Solution>
