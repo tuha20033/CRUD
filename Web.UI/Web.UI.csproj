@@ -7,9 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CoreBusiness\CoreBusiness.csproj" />
-    <ProjectReference Include="..\Plugins\Plugins.InMemory\Plugins.InMemory.csproj" />
-    <ProjectReference Include="..\UseCase\UseCase.csproj" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.19">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="MudBlazor" Version="8.13.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Infrastructure.Plugins1\Infrastructure.Plugins1.csproj" />
+    <ProjectReference Include="..\UseCase\Applicatetion.UseCase.csproj" />
+	
   </ItemGroup>
 
 </Project>

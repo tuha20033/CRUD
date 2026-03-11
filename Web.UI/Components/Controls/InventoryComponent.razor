@@ -1,0 +1,43 @@
+﻿
+@inject IViewInventortiesByNameUseCase ViewInventortiesByNameUseCase
+
+
+<PageTitle>Hà Ngọc Tú </PageTitle>
+<br />
+<br />
+
+<div class="d-flex mb-3">
+    <input type="text" class="form-control me-2" placeholder="Nhập tên..." />
+    <MudButton Variant="Variant.Outlined" Color="Color.Primary">Primary</MudButton>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Quantity</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (inventories is not null && inventories.Count()>0)
+        {
+            @foreach (var inventory in inventories)
+            {
+                <InventoryItemComponent Inventory="inventory"></InventoryItemComponent>
+            }
+        }
+        
+    </tbody>
+</table>
+@code {
+    private List<Inventory>? inventories;
+    protected override async Task OnInitializedAsync()
+    {
+        // inventories = (await ViewInventortiesByNameUseCase.ExecuteAsync()).ToList();
+        // inventories = (await ViewInventortiesByNameUseCase.ExecuteAsync("W")).ToList();
+        // Nếu thêm 1 chuỗi ký tự vào trong hàm
+        // ExecuteAsync thì nó sẽ tìm những item
+        // có những chữ cái đó sau đó đưa ra cho UI
+    }
+
+}

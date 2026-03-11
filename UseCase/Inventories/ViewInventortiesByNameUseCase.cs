@@ -11,8 +11,19 @@ public class ViewInventortiesByNameUseCase : IViewInventortiesByNameUseCase
     {
         this.inventoryRepository = inventoryRepository;
     }
-    public async Task<IEnumerable<Inventory>> ExecuteAsync(string name = "")
+
+    public Task AddAsync(Inventory inventory)
     {
-       return await inventoryRepository.GetInventoriesByNameAsync(name);
+        throw new NotImplementedException();
+    }
+
+    //public async Task<IEnumerable<Inventory>> ExecuteAsync(string name = "")
+    //{
+    //   return await inventoryRepository.GetInventoriesByNameAsync(name);
+    //}
+
+    public Task<Inventory> GetByIdAsync(int id, CancellationToken ct)
+    {
+        throw new NotImplementedException();
     }
 }
